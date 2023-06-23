@@ -1,8 +1,6 @@
 .tecnologias .container {
     flex-flow: column wrap;
     height: 100%;
-    padding-top: 3em;
-    margin-bottom: 3em;
 }
 
 .tecnologias-linguagens {

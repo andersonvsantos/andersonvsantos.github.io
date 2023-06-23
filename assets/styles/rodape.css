@@ -1,0 +1,10 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8vh;
+    text-align: center;
+    font-size: 1.2em;
+    background-image: url(/portifolio/assets/img/footerBg.jpg);
+    background-repeat: repeat;
+}

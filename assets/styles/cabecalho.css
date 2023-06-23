@@ -5,9 +5,12 @@ header {
 
 .cabecalho {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     height: 8vh;
+    padding-top: 0;
+    padding-bottom: 0;
     font-size: 17px;
 }
 

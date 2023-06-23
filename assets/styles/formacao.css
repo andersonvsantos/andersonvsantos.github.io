@@ -10,7 +10,9 @@
 }
 
 .formacao-item {
-    width: 320px;
+    width: 30%;
+    max-width: 320px;
+    min-width: 270px;
     height: 450px
 }
 
@@ -23,7 +25,7 @@
 }
 
 .formacao-icone {
-    font-size: 18em;
+    font-size: 15em;
 }
 
 .formacao-imagens {
@@ -32,6 +34,10 @@
 
 .obc {
     width: 40%;
+}
+
+.formacao-texto {
+    width: 260px;
 }
 
 .formacao-texto-ano{

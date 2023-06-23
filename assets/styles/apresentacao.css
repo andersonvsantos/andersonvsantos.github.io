@@ -9,6 +9,7 @@
 .apresentacao .container {
     height: 100%;
     flex-wrap: wrap;
+    flex-direction: row;
 }
 
 .apresentacao-titulo {
