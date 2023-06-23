@@ -1,0 +1,37 @@
+.sobre {
+    height: 100%;
+}
+
+.sobre .container{
+    flex-flow: column wrap;
+    height: 100%;
+    padding-top: 3em;
+    margin-bottom: 3em;
+}
+
+.sobre-conteudo{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.profileBorder {
+    background: var(--bg-apresentacao);
+    width: 400px;
+    height: 400px;
+    min-width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-size: 400% 400%;
+    animation: cores 4s ease infinite;
+    margin: 50px;
+}
+
+.sobre-fotoPerfil {
+    border-radius: 50%;
+    width: 96%;
+    height: 96%;
+}

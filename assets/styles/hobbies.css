@@ -1,0 +1,17 @@
+.hobbies {
+    margin-bottom: 2em;
+}
+
+.hobbies .container {
+    flex-flow: column wrap;
+    height: 100%;
+    padding-top: 3em;
+    margin-bottom: 3em;
+}
+
+.hobbies-lista {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}

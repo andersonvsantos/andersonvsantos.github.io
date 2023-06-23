@@ -1,0 +1,61 @@
+.animacao {
+    position: relative;
+    display: flex;
+    top: 100vh;
+    filter: brightness(50px);
+    animation: rotacao 40s ease infinite;
+}
+
+.animacao span{
+    position: absolute;
+    background: #ffffff;
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    filter: blur(150px);
+}
+
+#quadrado {
+    background-color: var(--bege);
+    top: 60vh;
+    left: 50vh;
+}
+
+#triangulo {
+    height: 0;
+    width: 0;
+    background-color: transparent;
+    border-left: 200px solid transparent;
+    border-right: 200px solid transparent;
+    border-bottom: 300px solid var(--verde);
+    top: 15vh;
+    left: 55vh;
+}
+
+#circulo1 {
+    background-color: var(--azul);
+    border-radius: 50%;
+    top: 50vh;
+    left: 150vh;
+}
+
+#circulo2 {
+    background-color: var(--vermelho);
+    border-radius: 50%;
+    top: 10vh;
+    left: 130vh;
+}
+
+@keyframes rotacao {
+    0% {
+        transform: rotate(90deg);
+    }
+
+    50% {
+        transform: rotate(-90deg);
+    }
+
+    100%{
+        transform: rotate(90deg);
+    }
+}

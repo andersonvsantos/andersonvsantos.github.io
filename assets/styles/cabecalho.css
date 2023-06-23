@@ -1,0 +1,40 @@
+header {
+    background-color: var(--bg-cabecalho);
+    border-bottom: 1.5px solid var(--branco);
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 8vh;
+    font-size: 17px;
+}
+
+.cabecalho-titulo {
+    font-size: 1.5em;
+}
+
+.cabecalho-navegacao-lista {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+.cabecalho-links {
+    list-style: none;
+    color: var(--branco);
+    margin: 10px;
+}
+
+.links:hover{
+    color: var(--cinza);
+}
+
+.cabecalho-redes .cabecalho-links{
+    font-size: 1.5em;
+}
+
+.mailIcon {
+    height: 1.35em;
+}

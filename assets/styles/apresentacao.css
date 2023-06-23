@@ -1,0 +1,40 @@
+.apresentacao {
+    background-image: var(--bg-apresentacao);
+    background-size: 300% 300%;
+    height: 92vh;
+    font-size: 18px;
+    animation: cores 25s ease infinite;
+}
+
+.apresentacao .container {
+    height: 100%;
+    flex-wrap: wrap;
+}
+
+.apresentacao-titulo {
+    font-size: 3em;
+    margin-bottom: 50px;
+}
+
+.apresentacao-caixatextos {
+    width:45%;
+    box-sizing: border-box;
+}
+
+.apresentacao-desenho {
+    width: 45%;
+}
+
+@keyframes cores {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}

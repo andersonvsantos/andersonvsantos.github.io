@@ -1,0 +1,28 @@
+.tecnologias .container {
+    flex-flow: column wrap;
+    height: 100%;
+    padding-top: 3em;
+    margin-bottom: 3em;
+}
+
+.tecnologias-linguagens {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.tecnologia {
+    font-size: 7em;
+}
+
+.tecnologia-texto {
+    font-size: 0.2em;
+    margin-top: 30px;
+    text-transform: uppercase;
+}
+
+.tecnologias-subtitulo {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}

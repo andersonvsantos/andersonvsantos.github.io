@@ -1,0 +1,39 @@
+.formacao .container {
+    flex-direction: column;
+}
+
+.formacao-lista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.formacao-item {
+    width: 320px;
+    height: 450px
+}
+
+.formacao-logos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70%;
+    width: 100%;
+}
+
+.formacao-icone {
+    font-size: 18em;
+}
+
+.formacao-imagens {
+    width: 70%;
+}
+
+.obc {
+    width: 40%;
+}
+
+.formacao-texto-ano{
+    font-size: 0.8em;
+    margin-top: 1em;
+}
