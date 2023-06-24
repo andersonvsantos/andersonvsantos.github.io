@@ -1,6 +1,60 @@
-.projetos-item-imagem {
-    width: 300px;
+.projetos-item {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 2em;
 }
 
-.projetos .container {
+.projetos-item-imagem {
+    width: 60%;
+    border-radius: 20px;
+}
+
+.projetos-item:nth-child(2n) {
+    .projetos-item-imagem {
+        order: 1;
+    }
+}
+
+.projetos-item-textoebotoes {
+    width: 35%;
+    display: flex;
+    
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
+.projetos-item-titulo {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+
+.projetos-item-texto {
+    margin-bottom: 1em;
+}
+
+.projetos-tecnologias {
+    width: 75%;
+    background-color: var(--cinza-tec);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 0.8em 0 0.8em 1.2em;
+    margin-bottom: 1em;
+}
+
+.projetos-tecnologias-lista {
+    font-size: 1.8em;
+    display: flex;
+}
+.projetos-tecnologias-items {
+    margin-left: 0.5em;
+}
+
+.projetos-item-navegacao {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
 }

@@ -1,12 +1,17 @@
 :root {
+    --azul: #0038FF;
+    --bege: #767A6F;
     --branco: #FFFFFF;
     --cinza: #A7A7A7;
+    --cinza-claro: #C6C4C4;
+    --cinza-claro-hover: #747474;
     --cinza-tec: #1D1D1D;
     --cinza-2n: #444444;
-    --bege: #767A6F;
-    --azul: #0038FF;
+    --roxo: #3B135D;
+    --roxo-hover: #2f0f4b;
     --verde: #55C852;
     --vermelho: #FF0000;
+
     --bg-cabecalho: #292929;
     --bg-apresentacao: linear-gradient(45deg, #240324, #240324, #3d005c, #00ff401f, #061fff2a, #ff00002d, #430f55, #2e0d3f, #240324, #240324);
 
@@ -65,4 +70,49 @@ section {
 
 section:nth-child(2n+1) {
     background-color: var(--cinza-2n);
+}
+
+.botao-branco {
+    text-align: center;
+    border: 2px solid var(--roxo);
+    background-color: var(--cinza-claro);
+    color: var(--roxo);
+    font-size: 0.9em;
+    padding: 0.5em 2em;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.botao-branco:hover {
+    background: var(--cinza-claro-hover);
+    border-color: var(--roxo-hover);
+    color: var(--roxo-hover);
+}
+
+.botao-roxo {
+    text-align: center;
+    border: 2px solid var(--roxo);
+    background-color: var(--roxo);
+    color: var(--branco);
+    font-size: 0.9em;
+    padding: 0.5em 2em;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.botao-roxo:hover {
+    background-color: var(--roxo-hover);
+    border-color: var(--roxo-hover);
+    color: var(--cinza-claro);
+}
+
+.botão-cinza {
+    text-align: center;
+    border: 2px solid var(--cinza-claro-hover);
+    background-color: var(--cinza-claro-hover);
+    color: var(--branco);
+    font-size: 0.9em;
+    padding: 0.5em 1.5em;
+    border-radius: 10px;
+    pointer-events: none; 
 }
