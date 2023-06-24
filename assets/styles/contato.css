@@ -1,0 +1,15 @@
+.contato-texto {
+    width: 100%;
+}
+
+.contato-texto-conteudo {
+    margin-left: 0;
+    margin-bottom: 1em;
+    text-align: left;
+}
+
+.contato-inputs {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}

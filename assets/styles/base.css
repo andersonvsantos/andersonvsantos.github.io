@@ -62,7 +62,13 @@ section {
     height: 270px;
     border-radius: 10px;
     margin-bottom: 0.5em;
+    transition: 0.3s;
 }
+
+.cards:hover {
+    transform: scale(1.1);
+}
+
 .cards-texto {
     text-align: center;
     margin-top: 1.5em;

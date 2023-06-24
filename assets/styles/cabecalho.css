@@ -30,6 +30,10 @@ header {
     margin: 10px;
 }
 
+.link {
+    transition: 0.5s;
+}
+
 .links:hover{
     color: var(--cinza);
 }
