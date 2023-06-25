@@ -8,7 +8,8 @@
     --cinza-tec: #1D1D1D;
     --cinza-2n: #444444;
     --roxo: #3B135D;
-    --roxo-hover: #2f0f4b;
+    --roxo-hover: #2F0F4B;
+    --roxo-input: #53128b;
     --verde: #55C852;
     --vermelho: #FF0000;
 
@@ -23,6 +24,18 @@ body {
     font-family: var(--inter);
     color: var(--branco);
     background-color: #363636;
+}
+
+::-webkit-scrollbar {
+    width: 0.5em;
+}
+::-webkit-scrollbar-track {
+    border-radius: 35px;
+    background-color: transparent;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 35px;
+    background-color: var(--roxo);
 }
 
 .container {

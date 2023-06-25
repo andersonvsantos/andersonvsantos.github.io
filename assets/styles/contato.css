@@ -8,8 +8,41 @@
     text-align: left;
 }
 
-.contato-inputs {
+.contato-input-container {
     width: 100%;
     display: flex;
     flex-direction: column;
+}
+
+.contato-label {
+    margin-bottom: 0.5em;
+}
+
+
+.contato-input {
+    font-family: var(--inter);
+    border-radius: 5px;
+    height: 2em;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    margin-bottom: 1em;
+    padding: 0.5em;
+}
+
+.contato-input::placeholder {
+    color: var(--roxo-input);
+}
+
+.contato-input:focus {
+    border-bottom: 4px solid var(--roxo-input);
+}
+
+.contato-textarea {
+    height: 12em;
+    resize: none;
+}
+
+.botao-contato {
+    width: 30%;
 }

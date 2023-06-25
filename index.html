@@ -237,12 +237,20 @@
                     <p class="contato-texto-conteudo">Quer entrar em contato comigo?<br>
                         Preencha o formulário ao lado e entrarei em contato o mais rápido possível.</p>
                 </div>
-                <div class="contato-inputs">
-                    <input type="text" name="" id="" class="contato-input">
-                    <input type="email" name="" id="" class="contato-input">
-                    <input type="text" class="contato-input">
-                    <textarea name="" id="" cols="30" rows="10" class="contato-textarea"></textarea>
-                    <input type="button" value="Enviar mensagem" class="botao-roxo">
+                <div class="contato-input-container">
+                    <label for="nome" class="contato-label">Nome</label>
+                    <input type="text" name="nome" id="nome" class="contato-input" placeholder="Nome">
+                    
+                    <label for="email" class="contato-label">Email</label>
+                    <input type="email" name="email" id="email" class="contato-input" placeholder="Email">
+                    
+                    <label for="assunto" class="contato-label">Assunto</label>
+                    <input type="text" name="assunto" id="assunto" class="contato-input" placeholder="Assunto">
+                    
+                    <label for="mensagem" class="contato-label">Mensagem</label>
+                    <textarea name="mensagem" id="mensagem" cols="30" rows="10" class="contato-textarea contato-input" placeholder="Mensagem"></textarea>
+                    
+                    <input type="button" value="Enviar mensagem" class="botao-contato botao-roxo">
                 </div>
             </div>
         </section>
