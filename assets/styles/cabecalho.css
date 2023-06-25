@@ -45,3 +45,34 @@ header {
 .mailIcon {
     height: 1.35em;
 }
+
+.cabecalho-menuicone {
+    display: none;
+}
+
+.menuicone {
+    width: 4.5em;
+}
+
+.cabecalho-menumobile {
+    display: none;
+}
+
+@media screen and (max-width: 930px) {
+    .cabecalho-navegacao-lista {
+        display: none;
+    }
+
+    .cabecalho-redes {
+        display: none;
+    }
+
+    .cabecalho-menuicone {
+        display: block;
+    }
+
+    .cabecalho-menuicone button {
+        background-color: transparent;
+        border: none;
+    }
+}

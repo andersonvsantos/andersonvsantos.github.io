@@ -1,10 +1,16 @@
-.footer {
+.rodape {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 8vh;
     text-align: center;
     font-size: 1.2em;
-    background-image: url(/portifolio/assets/img/footerBg.jpg);
+    background-image: url(/portifolio/assets/img/rodape/footerBg.jpg);
     background-repeat: repeat;
+}
+
+@media screen and (max-width: 600px) {
+    .rodape {
+        font-size: 0.95em;
+    }
 }

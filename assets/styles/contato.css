@@ -43,6 +43,18 @@
     resize: none;
 }
 
-.botao-contato {
+.contato-botao {
     width: 30%;
+}
+
+@media screen and (max-width: 970px) {
+    .contato-botao {
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .contato-botao {
+        width: 100%;
+    }
 }

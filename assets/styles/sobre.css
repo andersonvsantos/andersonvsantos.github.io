@@ -5,7 +5,7 @@
 
 .sobre-conteudo{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     flex-flow: row wrap;
     align-items: center;
@@ -15,8 +15,8 @@
 
 .profileBorder {
     background: var(--bg-apresentacao);
-    width: 500px;
-    height: 500px;
+    width: 400px;
+    height: 400px;
     display: flex;
     flex-shrink: 0;
     align-items: center;
@@ -24,8 +24,7 @@
     border-radius: 50%;
     background-size: 400% 400%;
     animation: cores 4s ease infinite;
-    margin-right: 10px;
-    margin-bottom: 1em;
+    margin: 35px;
 }
 
 .sobre-fotoPerfil {
@@ -35,6 +34,20 @@
 }
 
 .sobre-texto {
-    width: 500px;
+    width: 40%;
     min-width: 250px;
+}
+
+@media screen and (max-width: 470px) {
+    .profileBorder {
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .profileBorder {
+        width: 250px;
+        height: 250px;
+    }
 }

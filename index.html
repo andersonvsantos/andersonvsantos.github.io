@@ -39,10 +39,38 @@
                             <i class="devicon-github-original cabecalho-links"></i>
                         </a>
                         <a href="#contato">
-                            <img src="./assets/img/mailIcon.png" class="mailIcon">
+                            <img src="./assets/img/cabecalho/mailIcon.png" class="mailIcon">
                         </a>
-                </ul>
             </nav>
+
+            <!--Botão de sidebar responsivo-->
+
+            <div class="cabecalho-menuicone">
+                <button onclick="abrirMenu()"><img src="./assets/img/cabecalho/sidebar.png" alt="" class="menuicone"></button>
+            </div>
+
+            <div class="cabecalho-menumobile">
+                <nav class="cabecalho-navegacao">
+                    <ul class="cabecalho-navegacao-lista">
+                        <li class="cabecalho-links"><a href="#sobre" class="links">Sobre</a></li>
+                        <li class="cabecalho-links"><a href="#tecnologias" class="links">Tecnologias</a></li>
+                        <li class="cabecalho-links"><a href="#hobbies" class="links">Hobbies</a></li>
+                        <li class="cabecalho-links"><a href="#formacao" class="links">Formação</a></li>
+                        <li class="cabecalho-links"><a href="#projetos" class="links">Projetos</a></li>
+                    </ul>
+                </nav>
+                <nav class="cabecalho-redes">
+                            <a href="https://www.linkedin.com/in/anderson-venancio-dos-santos-dev/">
+                                <i class="devicon-linkedin-plain cabecalho-links"></i>
+                            </a>
+                            <a href="https://github.com/andersonvsantos">
+                                <i class="devicon-github-original cabecalho-links"></i>
+                            </a>
+                            <a href="#contato">
+                                <img src="./assets/img/cabecalho/mailIcon.png" class="mailIcon">
+                            </a>
+                </nav>
+            </div>
         </div>
     </header>
 
@@ -53,7 +81,7 @@
                     <h2 class="apresentacao-titulo">Desenvolvedor Web</h2>
                     <p class="apresentacao-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem eveniet quas fugit ipsam dignissimos. Laboriosam quaerat aperiam soluta deleniti officia omnis dolorum est. Quaerat, obcaecati et odio sequi natus veniam.</p>
                 </div>
-                <img src="./assets/img/mainBnr.png" alt="" class="apresentacao-desenho">
+                <img src="./assets/img/apresentacao/mainBnr.png" alt="" class="apresentacao-desenho">
             </div>
         </section>
 
@@ -62,7 +90,7 @@
                 <h2 class="sobre-titulo">Sobre mim</h2>
                 <div class="sobre-conteudo">
                     <div class="profileBorder">
-                        <img src="./assets/img/profile.jpeg" alt="" class="sobre-fotoPerfil">
+                        <img src="./assets/img//sobre/profile.jpeg" alt="" class="sobre-fotoPerfil">
                     </div>
                     <div class="sobre-texto">
                         <p class="sobre-texto-conteudo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta culpa rerum nobis consectetur nostrum aperiam quam possimus, alias corrupti magni velit quis asperiores repellat reiciendis enim, ullam dolores quas ipsam?  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum ab unde laborum dignissimos, perferendis, voluptates autem, quam doloribus harum eum perspiciatis. Eligendi illo, qui facere excepturi atque perspiciatis odit molestias!</p>
@@ -200,8 +228,8 @@
                             </ul>
                         </div>
                         <nav class="projetos-item-navegacao">
-                            <a href="https://github.com/andersonvsantos/challenge-oracle-one" class="projetos-items-navegacao-botoes-branco botao-branco">Repositório</a>
-                            <a href="https://andersonvsantos.github.io/challenge-oracle-one/" class="projetos-items-navegacao-botoes-roxo botao-roxo">Ver projeto</a>
+                            <a href="https://github.com/andersonvsantos/challenge-oracle-one" class="projetos-item-navegacao-botoes projetos-items-navegacao-botoes-branco botao-branco">Repositório</a>
+                            <a href="https://andersonvsantos.github.io/challenge-oracle-one/" class="projetos-item-navegacao-botoes projetos-items-navegacao-botoes-roxo botao-roxo">Ver projeto</a>
                         </nav>
                     </div>
                 </div>
@@ -223,7 +251,7 @@
                             </ul>
                         </div>
                         <nav class="projetos-item-navegacao">
-                            <a href="" class="projetos-items-navegacao-botoes-cinza botão-cinza">Em desenvolmento</a>
+                            <a href="" class="projetos-item-navegacao-botoes projetos-items-navegacao-botoes-cinza botão-cinza">Em desenvolmento</a>
                         </nav>
                     </div>
                 </div>
@@ -250,14 +278,16 @@
                     <label for="mensagem" class="contato-label">Mensagem</label>
                     <textarea name="mensagem" id="mensagem" cols="30" rows="10" class="contato-textarea contato-input" placeholder="Mensagem"></textarea>
                     
-                    <input type="button" value="Enviar mensagem" class="botao-contato botao-roxo">
+                    <input type="button" value="Enviar mensagem" class="contato-botao botao-roxo">
                 </div>
             </div>
         </section>
     </main>
 
-    <footer class="footer">
+    <footer class="rodape">
         <p>Desenvolvido por Anderson Santos 2023.</p>
     </footer>
+
+    <script src="./assets/js/index.js"></script>
 </body>
 </html>

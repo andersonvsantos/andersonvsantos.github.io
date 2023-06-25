@@ -26,3 +26,9 @@
     font-size: 1.5em;
     margin-bottom: 0.5em;
 }
+
+@media screen and (max-width: 460px) {
+    .tecnologias-subtitulo {
+        font-size: 1.3em;
+    }
+}

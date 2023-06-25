@@ -20,6 +20,7 @@
 
 .apresentacao-caixatextos {
     width:45%;
+    max-width: 400px;
     box-sizing: border-box;
 }
 
@@ -38,5 +39,28 @@
 
     100% {
         background-position: 0% 50%;
+    }
+}
+
+@media screen and (max-width: 930px) {
+    .apresentacao .container{
+        justify-content: center;
+    }
+
+    .apresentacao-desenho {
+        display: none;
+    }
+
+    .apresentacao-caixatextos {
+        width: 100%;
+        font-size: 0.8em;
+        justify-self: flex-start;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .apresentacao-caixatextos {
+        font-size: 0.7em;
     }
 }
