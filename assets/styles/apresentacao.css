@@ -10,6 +10,7 @@
     height: 100%;
     flex-wrap: wrap;
     flex-direction: row;
+    padding-top: 0;
 }
 
 .apresentacao-titulo {

@@ -1,9 +1,11 @@
 .tecnologias .container {
     flex-flow: column wrap;
     height: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
-.tecnologias-linguagens {
+.tecnologias-linguagens-lista {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;

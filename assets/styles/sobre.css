@@ -5,7 +5,7 @@
 
 .sobre-conteudo{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     flex-flow: row wrap;
     align-items: center;
@@ -24,7 +24,8 @@
     border-radius: 50%;
     background-size: 400% 400%;
     animation: cores 4s ease infinite;
-    margin: 35px;
+    margin-right: 10px;
+    margin-bottom: 1em;
 }
 
 .sobre-fotoPerfil {
