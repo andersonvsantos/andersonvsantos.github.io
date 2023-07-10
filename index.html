@@ -22,8 +22,12 @@
     <header>
         <div class="cabecalho container">
             <h1 class="cabecalho-titulo">Anderson Santos</h1>
-            <nav class="cabecalho-navegacao">
-                <ul class="cabecalho-navegacao-lista">
+            <nav class="cabecalho-navegacao" id="nav">
+                <button class="cabecalhoMenuBotao" id="cabecalhoMenuBotao">
+                    Menu
+                    <span aria-label="Abrir menu" class="hamburger" id="hamburger" aria-haspopup="true" aria-controls="menu" aria-expanded="false"></span>
+                </button>
+                <ul class="cabecalho-navegacao-lista" id="menu" role="menu">
                     <li class="cabecalho-links"><a href="#sobre" class="links">Sobre</a></li>
                     <li class="cabecalho-links"><a href="#tecnologias" class="links">Tecnologias</a></li>
                     <li class="cabecalho-links"><a href="#hobbies" class="links">Hobbies</a></li>
@@ -31,46 +35,6 @@
                     <li class="cabecalho-links"><a href="#projetos" class="links">Projetos</a></li>
                 </ul>
             </nav>
-            <nav class="cabecalho-redes">
-                        <a href="https://www.linkedin.com/in/anderson-venancio-dos-santos-dev/">
-                            <i class="devicon-linkedin-plain cabecalho-links"></i>
-                        </a>
-                        <a href="https://github.com/andersonvsantos">
-                            <i class="devicon-github-original cabecalho-links"></i>
-                        </a>
-                        <a href="#contato">
-                            <img src="./assets/img/cabecalho/mailIcon.png" class="mailIcon">
-                        </a>
-            </nav>
-
-            <!--Botão de sidebar responsivo-->
-
-            <div class="cabecalho-menuicone">
-                <button onclick="abrirMenu()"><img src="./assets/img/cabecalho/sidebar.png" alt="" class="menuicone"></button>
-            </div>
-
-            <div class="cabecalho-menumobile">
-                <nav class="cabecalho-navegacao">
-                    <ul class="cabecalho-navegacao-lista">
-                        <li class="cabecalho-links"><a href="#sobre" class="links">Sobre</a></li>
-                        <li class="cabecalho-links"><a href="#tecnologias" class="links">Tecnologias</a></li>
-                        <li class="cabecalho-links"><a href="#hobbies" class="links">Hobbies</a></li>
-                        <li class="cabecalho-links"><a href="#formacao" class="links">Formação</a></li>
-                        <li class="cabecalho-links"><a href="#projetos" class="links">Projetos</a></li>
-                    </ul>
-                </nav>
-                <nav class="cabecalho-redes">
-                            <a href="https://www.linkedin.com/in/anderson-venancio-dos-santos-dev/">
-                                <i class="devicon-linkedin-plain cabecalho-links"></i>
-                            </a>
-                            <a href="https://github.com/andersonvsantos">
-                                <i class="devicon-github-original cabecalho-links"></i>
-                            </a>
-                            <a href="#contato">
-                                <img src="./assets/img/cabecalho/mailIcon.png" class="mailIcon">
-                            </a>
-                </nav>
-            </div>
         </div>
     </header>
 
@@ -82,6 +46,34 @@
                     <p class="apresentacao-texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem eveniet quas fugit ipsam dignissimos. Laboriosam quaerat aperiam soluta deleniti officia omnis dolorum est. Quaerat, obcaecati et odio sequi natus veniam.</p>
                 </div>
                 <img src="./assets/img/apresentacao/mainBnr.png" alt="" class="apresentacao-desenho">
+                <nav class="apresentacao-redes">
+                    <ul class="apresentacao-redes-lista">
+                        <li class="apresentacao-redes-lista-item">
+                            <a href="https://www.linkedin.com/in/anderson-venancio-dos-santos-dev/">
+                                <i class="devicon-linkedin-plain"></i>
+                            </a>
+                            <p>LinkedIn</p>
+                        </li>
+                        <li class="apresentacao-redes-lista-item">
+                            <a href="https://github.com/andersonvsantos">
+                                <i class="devicon-github-original"></i>
+                            </a>
+                            <p>GitHub</p>
+                        </li>
+                        <li class="apresentacao-redes-lista-item">
+                            <a href="#contato">
+                                <img src="./assets/img/apresentacao/mailIcon.png" class="mailIcon icon">
+                            </a>
+                            <p>andersonvs.ju@gmail.com</p>
+                        </li>
+                        <li class="apresentacao-redes-lista-item">
+                            <a href="https://drive.google.com/u/0/uc?id=1CGL6RamTL6Mjsq7K_J-aCAgTl3d39-iM&export=download">
+                                <img src="./assets/img/apresentacao/curriculo.png" alt="" class="docIcon icon">
+                            </a>
+                            <p>Currículo</p>
+                        </li>
+                    </ul>
+                </nav>
             </div>
         </section>
 

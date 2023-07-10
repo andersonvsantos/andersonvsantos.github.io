@@ -1,8 +1,17 @@
-function abrirMenu() {
-    let menuMobile = document.querySelector('.cabecalho-menumobile');
-    if (menuMobile.classList.contains('aberta')) {
-        menuMobile.classList.remove('aberta');
+const cabecalhoMenuBotao = document.getElementById('cabecalhoMenuBotao');
+
+function toggleMenu(event) {
+    if(event.type  === 'touchstart') event.preventDefault();
+    const nav = document.getElementById('nav');
+    nav.classList.toggle('active');
+    const active = nav.classList.contains('active');
+    event.currentTarget.setAttribute('aria-expanded', active);
+    if(active) {
+        event.currentTarget.setAttribute('aria-label', 'Fechar Menu');
     } else {
-        menuMobile.classList.add('aberta')
+        event.currentTarget.setAttribute('aria-label', 'Abrir Menu');
     }
 }
+
+cabecalhoMenuBotao.addEventListener('click', toggleMenu);
+cabecalhoMenuBotao.addEventListener('touchstart', toggleMenu);

@@ -28,6 +28,38 @@
     width: 45%;
 }
 
+.apresentacao-redes {
+    width: 100%;
+    display: flex;
+}
+
+.apresentacao-redes-lista {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.apresentacao-redes-lista-item {
+    display: flex;
+    align-items: center;
+    margin: 1em;
+}
+
+.apresentacao-redes-lista i {
+    font-size: 2em;
+    margin: 0.2em;
+}
+
+.docIcon {
+    width: 2em;
+}
+
+.apresentacao-redes-lista-item p {
+    font-size: 0.7em;
+}
+
 @keyframes cores {
     0% {
         background-position: 0% 50%;
@@ -43,6 +75,10 @@
 }
 
 @media screen and (max-width: 930px) {
+    .apresentacao {
+        background-size: 400% 400%;
+    }
+
     .apresentacao .container{
         justify-content: center;
     }
@@ -59,7 +95,18 @@
     }
 }
 
+@media screen and (max-width: 750px) {
+    .apresentacao-redes-lista {
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
 @media screen and (max-width: 450px) {
+    .apresentacao {
+        background-size: 500% 500%;
+    }
+
     .apresentacao-caixatextos {
         font-size: 0.7em;
     }
